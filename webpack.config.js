@@ -5,8 +5,9 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
     mode: 'development',
     entry: {
-        app: './src/index.js',
-        print: './src/print.js'
+
+        project: './src/index.ts'
+
     },
     module: {
         rules: [
@@ -16,6 +17,9 @@ module.exports = {
                 exclude: /node_modules/
             }
         ]
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js']
     },
     devtool: 'inline-source-map',
     devServer: {

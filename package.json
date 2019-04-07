@@ -13,12 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^2.1.1",
+    "framer": "^0.10.10",
     "lodash": "^4.17.11",
     "style-loader": "^0.23.1",
     "webpack": "^4.29.6",
     "webpack-cli": "^3.3.0"
   },
   "devDependencies": {
+    "@types/lodash": "^4.14.123",
     "clean-webpack-plugin": "^2.0.1",
     "csv-loader": "^3.0.2",
     "file-loader": "^3.0.1",
