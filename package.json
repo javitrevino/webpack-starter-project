@@ -6,12 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start": "webpack-dev-server --open"
+    "start": "webpack-dev-server --open",
+    "type": "tsc ./src/index.ts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "@types/webpack": "^4.4.27",
     "css-loader": "^2.1.1",
     "framer": "^0.10.10",
     "lodash": "^4.17.11",

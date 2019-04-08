@@ -1,14 +1,11 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-
+var path = require('path');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var CleanWebpackPlugin = require('clean-webpack-plugin');
 module.exports = {
     mode: 'development',
-    entry:
-
-        './src/index.ts'
-
-    ,
+    entry: {
+        project: './src/index.ts'
+    },
     module: {
         rules: [
             {
@@ -36,3 +33,4 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     }
 };
+//# sourceMappingURL=webpack.config.js.map
